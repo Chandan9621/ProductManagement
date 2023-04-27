@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<style>
+.pdt_add
+{
+ text-align:center;
+ margin-top:40px;
+ }
+.pdt_add label
+{
+font-size:20px;
+}
+ .pdt_add input
+{
+font-size:20px;
+
+}
+.pdt_add input:hover
+{
+ color:violet;
+}
+
+
+
+</style>
+<body background="image\\shoping1.jpg";>
+<div class="pdt_add">
+<form action="product" method="post">
+<label for="name">ProductCode</label>
+<input type="text" name="pcode" autofocus required><br><br>
+<label for="name">ProductName</label>
+<input type="text" name="pname" autofocus required><br><br>
+<label for="name">ProductPrice</label>
+<input type="text" name="pprice" autofocus required><br><br>
+<label for="name">ProductQty</label>
+<input type="text" name="pqty" autofocus required><br><br>
+<input type="submit" value="AddProduct" required><br><br>
+</form>
+</div>
+
+</body>
+</html>
