@@ -21,6 +21,7 @@ public class DBConnection {
 	}
 	public static Connection getCon()
 	{
+          System.out.println("ABC");
 	 return con;
 	}
 
